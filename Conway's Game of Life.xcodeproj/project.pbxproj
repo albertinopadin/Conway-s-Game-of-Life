@@ -29,14 +29,16 @@
 		CE56FF441EA74B29001C6A7B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE56FEF61EA74B29001C6A7B /* GameScene.sks */; };
 		CE56FF451EA74B29001C6A7B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE56FEF61EA74B29001C6A7B /* GameScene.sks */; };
 		CE56FF461EA74B29001C6A7B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE56FEF61EA74B29001C6A7B /* GameScene.sks */; };
-		CE56FF471EA74B29001C6A7B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FEF71EA74B29001C6A7B /* GameScene.swift */; };
 		CE56FF481EA74B29001C6A7B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FEF71EA74B29001C6A7B /* GameScene.swift */; };
-		CE56FF491EA74B29001C6A7B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FEF71EA74B29001C6A7B /* GameScene.swift */; };
-		CE56FF4A1EA74B29001C6A7B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FEF71EA74B29001C6A7B /* GameScene.swift */; };
 		CE56FF4B1EA74B29001C6A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE56FEF81EA74B29001C6A7B /* Assets.xcassets */; };
-		CE56FF4C1EA74B29001C6A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE56FEF81EA74B29001C6A7B /* Assets.xcassets */; };
-		CE56FF4D1EA74B29001C6A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE56FEF81EA74B29001C6A7B /* Assets.xcassets */; };
-		CE56FF4E1EA74B29001C6A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE56FEF81EA74B29001C6A7B /* Assets.xcassets */; };
+		CE56FF641EA75436001C6A7B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FEF71EA74B29001C6A7B /* GameScene.swift */; };
+		CE56FF651EA75437001C6A7B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FEF71EA74B29001C6A7B /* GameScene.swift */; };
+		CE56FF681EA7544E001C6A7B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FEF71EA74B29001C6A7B /* GameScene.swift */; };
+		CE56FF6B1EA754B8001C6A7B /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FF6A1EA754B8001C6A7B /* Cell.swift */; };
+		CE56FF6C1EA754B8001C6A7B /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FF6A1EA754B8001C6A7B /* Cell.swift */; };
+		CE56FF6D1EA754B8001C6A7B /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FF6A1EA754B8001C6A7B /* Cell.swift */; };
+		CE56FF6E1EA754B8001C6A7B /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56FF6A1EA754B8001C6A7B /* Cell.swift */; };
+		CEAD977A1F0B6D2800E812D5 /* ResettableScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD97791F0B6D2800E812D5 /* ResettableScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +111,9 @@
 		CE56FF3A1EA74B29001C6A7B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		CE56FF3D1EA74B29001C6A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE56FF3F1EA74B29001C6A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE56FF691EA754B7001C6A7B /* watchOS App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "watchOS App-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE56FF6A1EA754B8001C6A7B /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		CEAD97791F0B6D2800E812D5 /* ResettableScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResettableScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +168,9 @@
 				CE56FEF61EA74B29001C6A7B /* GameScene.sks */,
 				CE56FEF71EA74B29001C6A7B /* GameScene.swift */,
 				CE56FEF81EA74B29001C6A7B /* Assets.xcassets */,
+				CE56FF6A1EA754B8001C6A7B /* Cell.swift */,
+				CE56FF691EA754B7001C6A7B /* watchOS App-Bridging-Header.h */,
+				CEAD97791F0B6D2800E812D5 /* ResettableScene.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -340,6 +348,7 @@
 					CE56FF0C1EA74B29001C6A7B = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = W6KXUJP8M6;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					CE56FF191EA74B29001C6A7B = {
@@ -398,7 +407,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE56FF4C1EA74B29001C6A7B /* Assets.xcassets in Resources */,
 				CE56FF141EA74B29001C6A7B /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,7 +425,6 @@
 			files = (
 				CE56FF301EA74B29001C6A7B /* Main.storyboard in Resources */,
 				CE56FF451EA74B29001C6A7B /* GameScene.sks in Resources */,
-				CE56FF4D1EA74B29001C6A7B /* Assets.xcassets in Resources */,
 				CE56FF411EA74B29001C6A7B /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,7 +435,6 @@
 			files = (
 				CE56FF3E1EA74B29001C6A7B /* Main.storyboard in Resources */,
 				CE56FF461EA74B29001C6A7B /* GameScene.sks in Resources */,
-				CE56FF4E1EA74B29001C6A7B /* Assets.xcassets in Resources */,
 				CE56FF421EA74B29001C6A7B /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,8 +446,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE56FF471EA74B29001C6A7B /* GameScene.swift in Sources */,
 				CE56FF031EA74B29001C6A7B /* GameViewController.swift in Sources */,
+				CEAD977A1F0B6D2800E812D5 /* ResettableScene.swift in Sources */,
+				CE56FF6B1EA754B8001C6A7B /* Cell.swift in Sources */,
+				CE56FF681EA7544E001C6A7B /* GameScene.swift in Sources */,
 				CE56FF011EA74B29001C6A7B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,6 +459,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE56FF481EA74B29001C6A7B /* GameScene.swift in Sources */,
+				CE56FF6C1EA754B8001C6A7B /* Cell.swift in Sources */,
 				CE56FF221EA74B29001C6A7B /* ExtensionDelegate.swift in Sources */,
 				CE56FF201EA74B29001C6A7B /* InterfaceController.swift in Sources */,
 			);
@@ -460,7 +469,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE56FF491EA74B29001C6A7B /* GameScene.swift in Sources */,
+				CE56FF641EA75436001C6A7B /* GameScene.swift in Sources */,
+				CE56FF6D1EA754B8001C6A7B /* Cell.swift in Sources */,
 				CE56FF2D1EA74B29001C6A7B /* GameViewController.swift in Sources */,
 				CE56FF2B1EA74B29001C6A7B /* AppDelegate.swift in Sources */,
 			);
@@ -470,7 +480,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE56FF4A1EA74B29001C6A7B /* GameScene.swift in Sources */,
+				CE56FF651EA75437001C6A7B /* GameScene.swift in Sources */,
+				CE56FF6E1EA754B8001C6A7B /* Cell.swift in Sources */,
 				CE56FF3B1EA74B29001C6A7B /* GameViewController.swift in Sources */,
 				CE56FF391EA74B29001C6A7B /* AppDelegate.swift in Sources */,
 			);
@@ -657,13 +668,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = W6KXUJP8M6;
 				IBSC_MODULE = Conway_s_Game_of_Life_Extension;
 				INFOPLIST_FILE = "watchOS App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Albertino.Conway-s-Game-of-Life.watchkitapp";
 				PRODUCT_NAME = "Conway's Game of Life";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/watchOS App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
@@ -674,13 +689,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = W6KXUJP8M6;
 				IBSC_MODULE = Conway_s_Game_of_Life_Extension;
 				INFOPLIST_FILE = "watchOS App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Albertino.Conway-s-Game-of-Life.watchkitapp";
 				PRODUCT_NAME = "Conway's Game of Life";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/watchOS App-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 3.2;
@@ -699,6 +717,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Albertino.Conway-s-Game-of-Life";
 				PRODUCT_NAME = "Conway's Game of Life";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -808,6 +827,7 @@
 				CE56FF531EA74B29001C6A7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE56FF551EA74B29001C6A7B /* Build configuration list for PBXNativeTarget "watchOS App" */ = {
 			isa = XCConfigurationList;
@@ -816,6 +836,7 @@
 				CE56FF571EA74B29001C6A7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE56FF591EA74B29001C6A7B /* Build configuration list for PBXNativeTarget "iOS" */ = {
 			isa = XCConfigurationList;
@@ -824,6 +845,7 @@
 				CE56FF5B1EA74B29001C6A7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE56FF5C1EA74B29001C6A7B /* Build configuration list for PBXNativeTarget "tvOS" */ = {
 			isa = XCConfigurationList;
@@ -832,6 +854,7 @@
 				CE56FF5E1EA74B29001C6A7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE56FF5F1EA74B29001C6A7B /* Build configuration list for PBXNativeTarget "macOS" */ = {
 			isa = XCConfigurationList;
@@ -840,6 +863,7 @@
 				CE56FF611EA74B29001C6A7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

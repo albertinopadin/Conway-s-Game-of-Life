@@ -11,19 +11,28 @@ import SpriteKit
 import GameplayKit
 
 class GameViewController: UIViewController {
-
+    
+    var scene: GameScene? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let scene = GameScene.newGameScene()
+        scene = GameScene(size: view.bounds.size)
 
         // Present the scene
         let skView = self.view as! SKView
         skView.presentScene(scene)
-        
         skView.ignoresSiblingOrder = true
         skView.showsFPS = true
         skView.showsNodeCount = true
+    }
+    
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        // Reset game if user shakes their device
+        if event?.subtype == UIEventSubtype.motionShake {
+            guard let scene = scene else { return }
+            scene.reset()
+        }
     }
 
     override var shouldAutorotate: Bool {
