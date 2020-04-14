@@ -27,9 +27,9 @@ class GameViewController: UIViewController {
         skView.showsNodeCount = true
     }
     
-    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         // Reset game if user shakes their device
-        if event?.subtype == UIEventSubtype.motionShake {
+        if event?.subtype == UIEvent.EventSubtype.motionShake {
             guard let scene = scene else { return }
             scene.reset()
         }

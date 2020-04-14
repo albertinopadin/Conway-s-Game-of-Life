@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "1130"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -41,8 +41,6 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <Testables>
-      </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
@@ -52,8 +50,8 @@
             ReferencedContainer = "container:Conway&apos;s Game of Life.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
+      <Testables>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -77,17 +75,6 @@
             ReferencedContainer = "container:Conway&apos;s Game of Life.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CE56FF0C1EA74B29001C6A7B"
-            BuildableName = "Conway&apos;s Game of Life.app"
-            BlueprintName = "watchOS App"
-            ReferencedContainer = "container:Conway&apos;s Game of Life.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

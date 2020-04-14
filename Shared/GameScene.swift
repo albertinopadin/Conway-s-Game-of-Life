@@ -96,7 +96,7 @@ class GameScene: SKScene {
                                          width: cellWidth,
                                          height: cellHeight),
                            alive: true,
-                           color: UIColor.red)
+                           color: .red)
         
         self.addChild(midCell)
         
@@ -105,7 +105,7 @@ class GameScene: SKScene {
                                             width: cellWidth,
                                             height: cellHeight),
                               alive: true,
-                              color: UIColor.green)
+                              color: .green)
         
         self.addChild(originCell)
         
@@ -114,7 +114,7 @@ class GameScene: SKScene {
                                          width: cellWidth,
                                          height: cellHeight),
                            alive: true,
-                           color: UIColor.yellow)
+                           color: .yellow)
         
         self.addChild(maxCell)
     }
